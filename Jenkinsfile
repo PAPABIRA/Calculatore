@@ -9,7 +9,9 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/TonUser/calculator.git'
+                git branch: 'main', url: 'https://github.com/TonUser/calculatore.git'
+               
+
             }
         }
 
